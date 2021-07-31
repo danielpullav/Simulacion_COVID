@@ -108,6 +108,6 @@ animator=animation.FuncAnimation(fig,graph,frames=range(len(t)),repeat=True,inte
 # =============================================================================
 # Guardado de la grafica como gif
 # =============================================================================
-#animator.save(r'SimulaciónCOVID.gif')  
+animator.save(r'SimulaciónCOVID.gif')  
     
 
