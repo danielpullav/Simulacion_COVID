@@ -64,8 +64,8 @@ k=float(input("Ingrese la tasa de recuperación (k):\t"))
 while k<0 or k>1:
     k=float(input("Valor inválido. Reingrese la tasa de recuperación (k):\t"))
  
-N_pob = 1 #Variable que especifica el proporción de la poblacion a considerar en la grafica
-SIR_data = odeint(mod_sir, y_0, t, args=(N_pob, b , k)) #Uso de la funcion odeint para el calculo de las funciones en 
+N_pob = 1 #Variable que especifica la proporción de la población a considerar en la gráfica
+SIR_data = odeint(mod_sir, y_0, t, args=(N_pob, b , k)) #Uso de la función odeint para el cálculo de las funciones en 
                                                         #las ecuaciones diferenciales a graficar
 
 # =============================================================================
